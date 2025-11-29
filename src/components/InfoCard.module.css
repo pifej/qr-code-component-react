@@ -1,0 +1,46 @@
+body{
+    background: lightblue;
+}
+
+.main_container {
+    width: 300px;
+    height: auto;
+    background: white;
+    border-radius: 5%;
+    margin: 1% auto;
+    padding-bottom: 2%;
+}
+
+.qr_code_container{
+    box-sizing: border-box;
+    padding: 4%;
+    text-align: center;
+}
+
+.qr_code{
+    max-width: 100%;
+    height: auto;
+    border-radius: 4%;
+    object-fit: contain;
+}
+
+.text_container {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.info_card_text_title {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: larger;
+    object-fit: contain;
+}
+
+.alt_text {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: small;
+    margin-top: 2ch;
+}
